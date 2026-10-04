@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="JTvRJdfCvMIOXqfocZhZ">
+    <mxGraphModel dx="856" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-AI-IHbod-RRi-aeSpHB-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="Задаём список словарей students" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-18" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-17" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="-AI-IHbod-RRi-aeSpHB-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="380" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-19" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;Проходим по элементам в students&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-20" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-19" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5hyyT72JoOU2uxLSuHEE-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="700" as="sourcePoint" />
+            <mxPoint x="450" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-21" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-22" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5hyyT72JoOU2uxLSuHEE-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="690" as="sourcePoint" />
+            <mxPoint x="450" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Добавляем в новый словарь marks&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;имя студента(ключ) : подсчитанная средняя оценка(значение)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-23" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-22" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5hyyT72JoOU2uxLSuHEE-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="560" />
+              <mxPoint x="240" y="560" />
+              <mxPoint x="240" y="330" />
+            </Array>
+            <mxPoint x="370" y="730" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-24" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-19" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5hyyT72JoOU2uxLSuHEE-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="330" />
+              <mxPoint x="560" y="640" />
+              <mxPoint x="400" y="640" />
+            </Array>
+            <mxPoint x="600" y="650" as="sourcePoint" />
+            <mxPoint x="400" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-27" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Выводим словарь marks&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-28" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-29" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5hyyT72JoOU2uxLSuHEE-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="1280" as="sourcePoint" />
+            <mxPoint x="490" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-29" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Выводим имя студента с наивысшей средне оценкой&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="5hyyT72JoOU2uxLSuHEE-30" edge="1" parent="1" source="5hyyT72JoOU2uxLSuHEE-15" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5hyyT72JoOU2uxLSuHEE-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="1020" as="sourcePoint" />
+            <mxPoint x="400" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
